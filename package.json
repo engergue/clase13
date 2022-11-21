@@ -1,0 +1,25 @@
+{
+  "name": "clase-13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/app.scss css/main.css",
+    "watch-css": "nodemon -e scss -x\"nmp run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engergue/clase13.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/engergue/clase13/issues"
+  },
+  "homepage": "https://github.com/engergue/clase13#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

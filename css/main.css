@@ -1,0 +1,17 @@
+.card {
+  background-color: white;
+  padding: 12px; }
+  .card .title {
+    color: blue;
+    font-size: 30px; }
+  .card:hover {
+    background-color: aqua; }
+  .card:active {
+    background-color: black; }
+
+footer {
+  height: 30px; }
+  footer .logo {
+    width: 100%; }
+  footer p {
+    font-size: 30px; }
